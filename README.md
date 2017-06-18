@@ -1,4 +1,14 @@
 parser
 ======
 
-A Symfony project created on June 16, 2017, 8:04 pm.
+Provider-classes (csv and xml, as examples) in
+
+`\AppBundle\Service\Provider` 
+
+run as command:
+ 
+`php bin/console app:parse-data xmlOne,csvOne`
+
+view log via
+
+`bin/console server:log -vv`
